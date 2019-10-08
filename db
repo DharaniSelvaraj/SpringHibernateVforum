@@ -1,0 +1,1 @@
+create database vforum;use vforum;  create table employee     (employeeId int not null primary key,     employeeName varchar(30) not null,     employeeDesignation varchar(30) not null,     employeeLocation varchar(20) not null,     username varchar(20) not null,     password varchar(20) not null);
